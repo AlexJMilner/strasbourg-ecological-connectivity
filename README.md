@@ -12,5 +12,5 @@ Le pipeline comprend la création de noyaux d’habitats, la génération d’un
 Python · GeoPandas · Rasterio · QGIS · OpenStreetMap
 
 Auteur : Alexander Milner  
-Université de Strasbourg — Licence Sciences de la Vie
+Université de Strasbourg - Licence Sciences de la Vie
 
