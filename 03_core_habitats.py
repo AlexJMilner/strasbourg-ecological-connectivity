@@ -3,7 +3,6 @@ import geopandas as gpd
 
 # Load OSM land cover
 landcover = gpd.read_file("data/raw/osm_landcover.geojson")
-
 # Ensure geographic CRS
 landcover = landcover.to_crs(epsg=4326)
 
