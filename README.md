@@ -1,4 +1,4 @@
-# Connectivité écologique — Strasbourg (Projet SIG)
+# Connectivité écologique - Strasbourg (Projet SIG)
 
 Projet d’écologie spatiale portant sur la modélisation de corridors écologiques et l’identification de goulots d’étranglement au sein de l’Eurométropole de Strasbourg, à partir de données d’occupation du sol (OpenStreetMap) et d’analyses géospatiales en Python.
 
