@@ -1,16 +1,16 @@
-# Strasbourg Ecological Connectivity — GIS Project
+# Connectivité écologique — Strasbourg (Projet SIG)
 
-Spatial ecology project modeling ecological corridors and bottlenecks in the Eurométropole of Strasbourg using Python and GIS tools.
+Projet d’écologie spatiale portant sur la modélisation de corridors écologiques et l’identification de goulots d’étranglement au sein de l’Eurométropole de Strasbourg, à partir de données d’occupation du sol (OpenStreetMap) et d’analyses géospatiales en Python.
 
-The workflow builds habitat cores from OpenStreetMap land cover data, generates a resistance surface, computes least-cost corridors, and identifies critical connectivity zones.
+Le pipeline comprend la création de noyaux d’habitats, la génération d’une surface de résistance, le calcul de chemins de moindre coût (least-cost paths) et la détection de zones critiques pour la continuité écologique.
 
-## Files
-- Python scripts: analysis pipeline
-- rapport.pdf: full project report
+## Contenu du dépôt
+- Scripts Python : pipeline d’analyse géospatiale
+- rapport.pdf : rapport complet du projet
 
-## Tools
+## Outils utilisés
 Python · GeoPandas · Rasterio · QGIS · OpenStreetMap
 
-Author: Alexander Milner  
-Université de Strasbourg
+Auteur : Alexander Milner  
+Université de Strasbourg — Licence Sciences de la Vie
 
