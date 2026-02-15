@@ -1,20 +1,16 @@
-# Strasbourg Ecology GIS — Corridors & connectivité écologique
+# Strasbourg Ecological Connectivity — GIS Project
 
-Projet d’écologie spatiale : création de noyaux d’habitats, surface de friction, corridors (least-cost) et goulots d’étranglement à partir de données d’occupation du sol (OSM) avec Python + QGIS.
+Spatial ecology project modeling ecological corridors and bottlenecks in the Eurométropole of Strasbourg using Python and GIS tools.
 
-## Contenu
-- `src/` : scripts Python (pipeline)
-- `data/` : données (raw/interim/processed)
-- `outputs/` : cartes/export finaux
-- `rapport.pdf` : rapport du projet (si présent)
+The workflow builds habitat cores from OpenStreetMap land cover data, generates a resistance surface, computes least-cost corridors, and identifies critical connectivity zones.
 
-## Lancer (ordre simple)
-Depuis la racine du projet :
+## Files
+- Python scripts: analysis pipeline
+- rapport.pdf: full project report
 
-```bash
-python src/03_core_habitats.py
-python src/04_resistance_prep.py
-python src/05_rasterize_resistance.py
-python src/06_corridors_lcp.py
-python src/07_corridor_zones.py
-python src/08_bottlenecks.py
+## Tools
+Python · GeoPandas · Rasterio · QGIS · OpenStreetMap
+
+Author: Alexander Milner  
+Université de Strasbourg
+
